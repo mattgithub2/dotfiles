@@ -1,6 +1,14 @@
-### test
-
 alias picom="nohup picom >/dev/null 2>&1 & && pidof picom | disown"
+
+alias spush="git add .; git commit -m "commit""
+
+alias fishconf="nvim ~/.config/fish/config.fish"
+
+alias vimdir="cd ~/.config/nvim/lua/core"
+
+set -g theme_powerline_fonts yes
+set -g theme_nerd_fonts yes
+set -g theme_color_scheme terminal
 
 alias c="clear;neofetch"
 # https://fishshell.com/docs/current/index.html
