@@ -21,10 +21,10 @@ exec --no-startup-id nitrogen --restore
 # exec --no-startup-id killall xfce4-panel 
 
 # Launch a terminal session on startup
-exec --no-startup-id alacritty 
+# exec --no-startup-id alacritty 
 
 # Launch tint2 at startup
-exec --no-startup-id tint2 
+# exec --no-startup-id tint2 
 
 # Start nitrogen (wallpaper)
 exec --no-startup-id nitrogen --restore
@@ -50,11 +50,25 @@ bindsym $mod+Shift+g exec --no-startup-id i3-assign-workspace-to-group
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+#################################################
+        ## PROGRAM KEYBINDS ##
+#################################################
+
 # start a terminal
 bindsym $mod+Return exec alacritty	
 
+# start a chrome window
+bindsym $mod+p exec google-chrome-stable
+
+# open discord
+bindsym $mod+o exec discord
+
+# thunar file manager
+bindsym $mod+i exec thunar
 # kill focused window
 bindsym $mod+Shift+q kill
+
+##################################################
 
 # start dmenu (a program launcher)
 #bindsym $mod+d exec dmenu_run
