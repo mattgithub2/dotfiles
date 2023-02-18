@@ -1,4 +1,5 @@
 alias picom="nohup picom >/dev/null 2>&1 & && pidof picom | disown"
+xset r rate 300 50
 
 alias spush="git add .; git commit -m "commit""
 
