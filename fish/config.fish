@@ -7,6 +7,10 @@ alias fishconf="nvim ~/.config/fish/config.fish"
 
 alias vimdir="cd ~/.config/nvim/lua/core"
 
+function nhup
+  nohup $argv >/dev/null 2>&1 &
+end
+
 set -g theme_powerline_fonts yes
 set -g theme_nerd_fonts yes
 set -g theme_color_scheme terminal
@@ -61,9 +65,9 @@ set -e fish_user_paths
 set -U fish_user_paths $HOME/.bin $HOME/.local/bin $HOME/Applications $fish_user_paths
 
 # Starship prompt
-#if command -sq starship
+# if command -sq starship
 #    starship init fish | source
-#end
+# end
 
 # sets tools
 set -x EDITOR nano
@@ -538,7 +542,7 @@ end
 alias undopush "git push -f origin HEAD^:master"
 
 # reporting tools - install when not installed
-neofetch
+neofetch 
 #screenfetch
 #alsi
 #paleofetch

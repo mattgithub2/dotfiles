@@ -5,7 +5,7 @@ schemes:
    # made background color lighter 
   argonaut: &argonaut
     primary:
-      background: '#444670'
+      background: '#141529'
       foreground: '0xEBEBEB'
   
     # Cursor colors
@@ -179,7 +179,7 @@ schemes:
       black:   '0x828bb8'
       red:     '0xff98a4'
       green:   '0xc3e88d'
-      yellow:  '0xffc777'
+      yellow:  '0xffc77'
       blue:    '0x82aaff'
       magenta: '0xff966c'
       cyan:    '0xb4f9f8'
@@ -250,7 +250,7 @@ window:
   #
   # Window opacity as a floating point number from 0.0 to 1.0.
   # The value 0.0 is completely transparent and 1.0 is opaque.
-  opacity: 1.0
+  opacity: 0.85
 
 
 font:
