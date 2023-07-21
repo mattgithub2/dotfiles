@@ -1,0 +1,734 @@
+{
+  "defaults": {
+    "separator": "",
+    "padding": " ",
+    "unknown": {
+      "prefix": ""
+    },
+    "separator-block-width": 0,
+    "default-separators": false
+  },
+  "date": {
+    "prefix": ""
+  },
+  "persian_date": {
+    "prefix": ""
+  },
+  "time": {
+    "prefix": ""
+  },
+  "datetime": {
+    "prefix": ""
+  },
+  "datetz": {
+    "prefix": ""
+  },
+  "timetz": {
+    "prefix": ""
+  },
+  "datetimetz": {
+    "prefix": ""
+  },
+  "memory": {
+    "prefix": ""
+  },
+  "cpu": {
+    "prefix": ""
+  },
+  "cpu2": {
+    "freq": {
+      "prefix": ""
+    },
+    "load": {
+      "prefix": ""
+    },
+    "loads": {
+      "prefix": ""
+    },
+    "temp": {
+      "prefix": ""
+    },
+    "fan": {
+      "prefix": ""
+    }
+  },
+  "disk": {
+    "prefix": ""
+  },
+  "smartstatus": {
+    "prefix": ""
+  },
+  "dnf": {
+    "prefix": ""
+  },
+  "apt": {
+    "prefix": ""
+  },
+  "pacman": {
+    "prefix": ""
+  },
+  "brightness": {
+    "prefix": ""
+  },
+  "load": {
+    "prefix": ""
+  },
+  "layout": {
+    "prefix": ""
+  },
+  "layout-xkb": {
+    "prefix": ""
+  },
+  "layout-xkbswitch": {
+    "prefix": ""
+  },
+  "notmuch_count": {
+    "empty": {
+      "prefix": "\uf0e0"
+    },
+    "items": {
+      "prefix": "\uf0e0"
+    }
+  },
+  "portage_status": {
+    "idle": {
+      "prefix": ""
+    },
+    "active": {
+      "prefix": ""
+    }
+  },
+  "todo": {
+    "empty": {
+      "prefix": ""
+    },
+    "items": {
+      "prefix": ""
+    },
+    "uptime": {
+      "prefix": ""
+    }
+  },
+  "zpool": {
+    "poolread": {
+      "prefix": "→ "
+    },
+    "poolwrite": {
+      "prefix": "← "
+    },
+    "ONLINE": {
+      "prefix": ""
+    },
+    "FAULTED": {
+      "prefix": "!"
+    },
+    "DEGRADED": {
+      "prefix": "!"
+    }
+  },
+  "cmus": {
+    "playing": {
+      "prefix": ""
+    },
+    "paused": {
+      "prefix": ""
+    },
+    "stopped": {
+      "prefix": ""
+    },
+    "prev": {
+      "prefix": ""
+    },
+    "next": {
+      "prefix": ""
+    },
+    "shuffle-on": {
+      "prefix": ""
+    },
+    "shuffle-off": {
+      "prefix": ""
+    },
+    "repeat-on": {
+      "prefix": ""
+    },
+    "repeat-off": {
+      "prefix": ""
+    }
+  },
+  "gpmdp": {
+    "playing": {
+      "prefix": ""
+    },
+    "paused": {
+      "prefix": ""
+    },
+    "stopped": {
+      "prefix": ""
+    },
+    "prev": {
+      "prefix": ""
+    },
+    "next": {
+      "prefix": ""
+    }
+  },
+  "playerctl": {
+    "playing": {
+      "prefix": ""
+    },
+    "paused": {
+      "prefix": ""
+    },
+    "stopped": {
+      "prefix": ""
+    },
+    "prev": {
+      "prefix": ""
+    },
+    "next": {
+      "prefix": ""
+    }
+  },
+  "pasink": {
+    "muted": {
+      "prefix": ""
+    },
+    "unmuted": {
+      "prefix": ""
+    }
+  },
+  "pulseout": {
+    "muted": {
+      "prefix": ""
+    },
+    "unmuted": {
+      "prefix": ""
+    }
+  },
+  "amixer": {
+    "muted": {
+      "prefix": ""
+    },
+    "unmuted": {
+      "prefix": ""
+    }
+  },
+  "pasource": {
+    "muted": {
+      "prefix": ""
+    },
+    "unmuted": {
+      "prefix": ""
+    }
+  },
+  "pulsein": {
+    "muted": {
+      "prefix": ""
+    },
+    "unmuted": {
+      "prefix": ""
+    }
+  },
+  "pipewire": {
+    "muted": {
+      "prefix": ""
+    },
+    "unmuted": {
+      "prefix": ""
+    }
+  },
+  "kernel": {
+    "prefix": "\uf17c"
+  },
+  "nic": {
+    "wireless-up": {
+      "prefix": ""
+    },
+    "wireless-down": {
+      "prefix": ""
+    },
+    "wired-up": {
+      "prefix": ""
+    },
+    "wired-down": {
+      "prefix": ""
+    },
+    "tunnel-up": {
+      "prefix": ""
+    },
+    "tunnel-down": {
+      "prefix": ""
+    }
+  },
+  "bluetooth": {
+    "ON": {
+      "prefix": ""
+    },
+    "OFF": {
+      "prefix": ""
+    },
+    "?": {
+      "prefix": ""
+    }
+  },
+  "bluetooth2": {
+    "ON": {
+      "prefix": ""
+    },
+    "warning": {
+      "prefix": ""
+    },
+    "critical": {
+      "prefix": ""
+    }
+  },
+  "battery-upower": {
+    "charged": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "AC": {
+      "suffix": ""
+    },
+    "charging": {
+      "prefix": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "suffix": ""
+    },
+    "discharging-10": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "discharging-25": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "discharging-50": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "discharging-80": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "discharging-100": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "unlimited": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "estimate": {
+      "prefix": ""
+    },
+    "unknown-10": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "unknown-25": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "unknown-50": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "unknown-80": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "unknown-100": {
+      "prefix": "",
+      "suffix": ""
+    }
+  },
+  "battery": {
+    "charged": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "AC": {
+      "suffix": ""
+    },
+    "charging": {
+      "prefix": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "suffix": ""
+    },
+    "discharging-10": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "discharging-25": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "discharging-50": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "discharging-80": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "discharging-100": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "unlimited": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "estimate": {
+      "prefix": ""
+    },
+    "unknown-10": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "unknown-25": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "unknown-50": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "unknown-80": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "unknown-100": {
+      "prefix": "",
+      "suffix": ""
+    }
+  },
+  "battery_all": {
+    "charged": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "AC": {
+      "suffix": ""
+    },
+    "charging": {
+      "prefix": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "suffix": ""
+    },
+    "discharging-10": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "discharging-25": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "discharging-50": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "discharging-80": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "discharging-100": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "unlimited": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "estimate": {
+      "prefix": ""
+    },
+    "unknown-10": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "unknown-25": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "unknown-50": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "unknown-80": {
+      "prefix": "",
+      "suffix": ""
+    },
+    "unknown-100": {
+      "prefix": "",
+      "suffix": ""
+    }
+  },
+  "caffeine": {
+    "activated": {
+      "prefix": " "
+    },
+    "deactivated": {
+      "prefix": " "
+    }
+  },
+  "xrandr": {
+    "on": {
+      "prefix": " "
+    },
+    "off": {
+      "prefix": " "
+    },
+    "refresh": {
+      "prefix": ""
+    }
+  },
+  "redshift": {
+    "day": {
+      "prefix": ""
+    },
+    "night": {
+      "prefix": ""
+    },
+    "transition": {
+      "prefix": ""
+    }
+  },
+  "docker_ps": {
+    "prefix": ""
+  },
+  "sensors": {
+    "prefix": ""
+  },
+  "sensors2": {
+    "temp": {
+      "prefix": ""
+    },
+    "fan": {
+      "prefix": ""
+    },
+    "cpu": {
+      "prefix": ""
+    }
+  },
+  "traffic": {
+    "rx": {
+      "prefix": ""
+    },
+    "tx": {
+      "prefix": ""
+    }
+  },
+  "network_traffic": {
+    "rx": {
+      "prefix": ""
+    },
+    "tx": {
+      "prefix": ""
+    }
+  },
+  "mpd": {
+    "playing": {
+      "prefix": ""
+    },
+    "paused": {
+      "prefix": ""
+    },
+    "stopped": {
+      "prefix": ""
+    },
+    "prev": {
+      "prefix": ""
+    },
+    "next": {
+      "prefix": ""
+    },
+    "shuffle-on": {
+      "prefix": ""
+    },
+    "shuffle-off": {
+      "prefix": ""
+    },
+    "repeat-on": {
+      "prefix": ""
+    },
+    "repeat-off": {
+      "prefix": ""
+    }
+  },
+  "arch-update": {
+    "prefix": " "
+  },
+  "aur-update": {
+    "prefix": " "
+  },
+  "github": {
+    "prefix": "  "
+  },
+  "deezer": {
+    "prefix": "  "
+  },
+  "spotify": {
+    "song": {
+      "prefix": ""
+    },
+    "playing": {
+      "prefix": ""
+    },
+    "paused": {
+      "prefix": ""
+    },
+    "prev": {
+      "prefix": ""
+    },
+    "next": {
+      "prefix": ""
+    }
+  },
+  "publicip": {
+    "prefix": "  "
+  },
+  "weather": {
+    "clouds": {
+      "prefix": ""
+    },
+    "rain": {
+      "prefix": ""
+    },
+    "snow": {
+      "prefix": ""
+    },
+    "clear": {
+      "prefix": ""
+    },
+    "thunder": {
+      "prefix": ""
+    }
+  },
+  "taskwarrior": {
+    "prefix": "  "
+  },
+  "progress": {
+    "copying": {
+      "prefix": ""
+    }
+  },
+  "git": {
+    "main": {
+      "prefix": ""
+    },
+    "new": {
+      "prefix": ""
+    },
+    "modified": {
+      "prefix": ""
+    },
+    "deleted": {
+      "prefix": ""
+    }
+  },
+  "dunst": {
+    "muted": {
+      "prefix": ""
+    },
+    "unmuted": {
+      "prefix": ""
+    }
+  },
+  "dunstctl": {
+    "muted": {
+      "prefix": ""
+    },
+    "unmuted": {
+      "prefix": ""
+    },
+    "unknown": {
+      "prefix": ""
+    }
+  },
+  "rofication": {
+    "prefix": ""
+  },
+  "twmn": {
+    "muted": {
+      "prefix": ""
+    },
+    "unmuted": {
+      "prefix": ""
+    }
+  },
+  "pihole": {
+    "enabled": {
+      "prefix": ""
+    },
+    "disabled": {
+      "prefix": ""
+    }
+  },
+  "vpn": {
+    "prefix": ""
+  },
+  "system": {
+    "prefix": "    "
+  },
+  "sun": {
+    "prefix": ""
+  },
+  "rss": {
+    "prefix": ""
+  },
+  "pomodoro": {
+    "off": {
+      "prefix": ""
+    },
+    "paused": {
+      "prefix": ""
+    },
+    "work": {
+      "prefix": ""
+    },
+    "break": {
+      "prefix": ""
+    }
+  },
+  "hddtemp": {
+    "prefix": ""
+  },
+  "octoprint": {
+    "prefix": " "
+  },
+  "arandr": {
+    "prefix": ""
+  },
+  "speedtest": {
+    "running": {
+      "prefix": [
+        "\uf251",
+        "\uf252",
+        "\uf253"
+      ]
+    },
+    "not-running": {
+      "prefix": "\uf144"
+    }
+  },
+  "thunderbird": {
+    "prefix": ""
+  }
+}
