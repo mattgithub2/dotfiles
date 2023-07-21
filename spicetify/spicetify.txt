@@ -1,0 +1,35 @@
+--- Spicetify Setup ---
+
+--> Run this Command
+curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh
+
+
+--> gain read write permissions on Spotify files, by running commands:
+sudo chmod a+wr /usr/share/spotify
+sudo chmod a+wr /usr/share/spotify/Apps -R
+
+
+--> Now this command should work
+curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.sh | sh
+
+
+--- Custom Theme Setup ---
+
+--> Clone this repository.
+git clone --depth=1 https://github.com/spicetify/spicetify-themes.git 
+
+--> Copy the files into the Spicetify Themes folder. Run:
+cd spicetify-themes
+cp -r * ~/.config/spicetify/Themes
+
+--> Add these 2 lines under [Patch] in config-xpui.ini 
+xpui.js_find_8008 = ,(\w+=)56,
+xpui.js_repl_8008 = ,${1}32,
+
+--> Add the custom scheme (custom/) in the Themes/ dir
+
+--> Choose which theme to apply just by running:
+spicetify config current_theme THEME_NAME
+spicetify apply
+
+
