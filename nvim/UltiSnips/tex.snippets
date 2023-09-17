@@ -16,9 +16,6 @@ snippet template
 % \usepackage[default]{sourcecodepro}
 % \usepackage[T1]{fontenc}
 
-\usepackage{tikz}
-\usepackage{pgfplots}
-\pgfplotsset{compat=1.18}
 
 \pgfpagesdeclarelayout{boxed}
 {
@@ -48,24 +45,6 @@ snippet template
 \end{document}
 endsnippet
 
-# snippet template
-# \documentclass{report}
-#
-# \input{~/latex/template/preamble.tex}
-# \input{~/latex/template/macros.tex}
-#
-# \title{\Huge{$1}}
-# \author{\huge{$2}}
-# \date{\huge{$3}}
-#
-# \begin{document}
-# 	\maketitle
-# 	\begin{Large}
-# 		\noindent \textbf{$4}
-# 	\end{Large}
-# 	$5
-# \end{document}
-# endsnippet
 snippet tikz
 	\begin{center}
 		\begin{tikzpicture}
@@ -144,13 +123,13 @@ else:
 `$2
 endsnippet
 
-snippet '((\d+)|(\d*)(\\)?([A-Za-z]+)((\^|_)(\{\d+\}|\d))*)/' "Fraction" wrA
-\\frac{`!p snip.rv = match.group(1)`}{$1}$0
-endsnippet
+# snippet '((\d+)|(\d*)(\\)?([A-Za-z]+)((\^|_)(\{\d+\}|\d))*)/' "Fraction" wrA
+# \\frac{`!p snip.rv = match.group(1)`}{$1}$0
+# endsnippet
 
-snippet // "Fraction" i
-\\frac{$1}{$2}$0
-endsnippet
+# snippet // "Fraction" i
+# \\frac{$1}{$2}$0
+# endsnippet
 
 snippet ali
 \begin{align*}
@@ -175,20 +154,20 @@ snippet def "definition"
 	\textbf{\underline{Defintion}}
 	\vspace{3mm}
 
-
+	$1
 }
 endsnippet
 
 snippet ex "example"
 \ex{}{
-
+	$1
 }
 endsnippet
 
 snippet fig "figure"
 \begin{figure}[ht]
 \centering
-\includegraphics[width=0.5\textwidth]{ }
+\includegraphics[width=0.5\textwidth]{ $1 }
 \end{figure}
 endsnippet
 
@@ -196,7 +175,21 @@ snippet mat "matrix"
 \[
 
 \begin{bmatrix}
-
+	$1
 \end{bmatrix}
 \]
+endsnippet
+
+snippet pset "problemset"
+\begin{problemset}{$1}
+\begin{align*}
+	$1 
+\end{align*}
+\end{problemset}
+endsnippet
+
+snippet mini "minipage"
+\begin{minipage}{0.5\textwidth}
+$1	
+\end{minipage}
 endsnippet
